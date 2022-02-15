@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Мій розширенний пошук</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="conteiner">
+            <div class="tp">
+                <a id="tp_1" aria-label= "На домашню сторінку Google" href="index.html" title="На домашню сторінку Google">
+                  <img class="google_logo" src="img/Google_Logo_1998.png" alt="Google Logo">  
+                </a>
+                <a class="tp" data-pid="23" href="index.html" target="_top">Пошук</a>
+                <a class="tp" data-pid="2" href="saerchimg.html" target="_top">Пошук зображень</a>
+                   </div>
+                
+            <div class="tadv">
+                <label>Розширений пошук</label> 
+            </div>
+           <form action="https://www.google.com/search">
+        <div class="adv_field">
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"><span class="adv_help"><b>Знайти сторінки, що містять...</b></span></div>
+                <div class="align_adv_field_input"> </div>
+                <div class="align_adv_field_help"><span class="adv_help"><b>Як це зробити в полі пошуку</b></span></div>
+            </div>
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"><label for="search_q">усіма цими словами:</label></div> 
+                <div class="align_adv_field_input"><input id="search_q" type="text" name="as_q" value="" autufocus></div>
+                <div class="align_adv_field_help"><span class="adv_help">Введіть важливі слова: <span class="font_mono">триколірний рет-тер’єр</span></span></div>
+            </div>
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"><label for="search_epq">саме цим словом або фразою:</label></div>
+                <div class="align_adv_field_input"><input id="search_epq" type="text" name="as_epq" value=""></div>
+                <div class="align_adv_field_help"><span class="adv_help">Візьміть точні слова в лапки: <span class="font_mono">"рет-тер’єр"</span></span></div>
+            </div>
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"><label for="search_oq">будь-яким із цих слів:</label></div>
+                <div class="align_adv_field_input"><input id="search_oq" type="text" name="as_oq" value=""></div>
+                <div class="align_adv_field_help"><span class="adv_help">Введіть OR між усіма потрібними словами: <span class="font_mono">мініатюрні OR стандартні</span></span></div>
+            </div> 
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"><label for="search_eq">жодне з цих слів:</label></div>
+                <div class="align_adv_field_input"><input id="search_eq" type="text" name="as_eq" value=""></div>
+                <div class="align_adv_field_help"><span class="adv_help">Поставте знак мінус перед небажаними словами: <span class="font_mono">-гризун, -"Джек Рассел"</span></span></div>
+            </div>
+            <div class="adv_field_search">
+                <div class="align_adv_fieldlabel"></div>
+                <div class="align_adv_field_input">
+                    <input id="CIGjud" name="tbs" type="hidden" value="">
+                    <input class="adv_button_search" type="submit" value="Розширений пошук"></div>
+                <div class="align_adv_field_help"></div>
+
+            </div>
+        </div>
+        </form>
+        </div>
+    </body>
+</html>
